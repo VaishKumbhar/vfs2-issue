@@ -12,7 +12,7 @@ We discovered authentication problem when migrating our application from depreca
 
 ## Steps to reproduce
 
-1. Clone the minimal reproduction project: [LINK_TO_GITHUB_REPO]
+1. Clone the minimal reproduction project: (https://github.com/VaishKumbhar/vfs2-issue)
 2. Run: `mvn test`
 3. Observe: test `http4WithBasicAuthSucceeds` passes; test `http5WithBasicAuthFailsBecausePasswordWipedByCleanup` fails with Http5 does **not** return the protected content (auth failed).
 
@@ -38,6 +38,6 @@ Server returns 401.
 
 ## Reproduction project
 
-<github URL here>
+https://github.com/VaishKumbhar/vfs2-issue
 
 Clone and run `mvn test` to reproduce.
